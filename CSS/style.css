@@ -9,6 +9,17 @@ body{
     background-attachment: fixed;
     background-size: cover;
   } */
+
+  .main-heading
+  {
+  background-image: url("/images/IMG_20210628_161843.jpg");
+  background-color: #cccccc;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 .head
 {
     
@@ -18,27 +29,29 @@ body{
 
 h3
 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-family: 'Benne', serif;
     font-weight: 1000;
     margin-top: 0px;
+    text-decoration: underline;
+    text-underline-position: below;
 }
 .container-fluid
 {
     padding: 0% 15% 2%;
 }
 
-#heading 
-{
-    background-color: #FA8072;
-}
+ 
 
-.societyname
+
+.society
 {
   
    font-family: 'Benne', serif;
-   font-size: 0.5rem;
+   font-size: 1.5rem;
    margin-top: 0;
+   color: #fff;
+  
 }
 
 h1,h2
@@ -50,9 +63,11 @@ h1,h2
 
 .navbar
 {
-    background-color: #000000;
+    background-color: #ff4c68;
     text-align: center;
     padding: 0.5% 15%;
+    margin-bottom: 10px;
+    
 }
 
 .navbar-brand
@@ -67,6 +82,11 @@ h1,h2
 {
     padding: 0 20px;
     margin: 0 20px;
+}
+
+.carousal-image
+{
+    margin: 0px 0px;
 }
 
 
@@ -103,19 +123,21 @@ h1,h2
 {
     font-size: 1.3rem;
     line-height: 1.5;
-    background-color: #FFDAB9;
-     color: #4169E1;
-     padding: 5%;
+  
+     color: #000000;
+    
      
 }
 
 .welcome
 {
     font-size: 1.3rem;
-    line-height: 1.5;
-    background-color: #FFDAB9;
-     color: #4169E1;
+    line-height: 2;
+    background-color: #ff4c68 ;
+     color:#fff;
      padding: 5%;
+     width: 40%;
+     
 }
 
 
