@@ -12,13 +12,17 @@ body{
 
   .main-heading
   {
+      /*
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXpKTjhhyy_giQYjM99rdFhHraGpHNh9uLAA&usqp=CAU");
   background-color: #cccccc;
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: relative; */
+      
+       background-color: #000000;
+
 }
 .head
 {
